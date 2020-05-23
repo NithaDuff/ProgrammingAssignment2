@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix is the function that accepts the input
+## checks in the cache and retrieves the appropriate answer
+## The executions are triggered from this function
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- x$getInverse()
@@ -17,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve accepts a matrix and caches the data as required
+## The function is driven by another function according to demand.
 
 cacheSolve <- function(x, ...) {
   inv <- NULL
